@@ -4,7 +4,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import HeroFirstItem from './hero-items/hero-first-item'
 import HeroSecondItem from './hero-items/hero-second-item'
 
-export default function Hero() {
+export default function BottomHero() {
   return (
     <Carousel
       opts={{

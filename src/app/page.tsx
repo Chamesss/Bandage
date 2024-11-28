@@ -1,3 +1,4 @@
+import BottomHero from './components/bottom-hero'
 import FeaturedEditors from './components/featured-editors'
 import FeaturedPosts from './components/featured-posts'
 import FeaturedProducts from './components/featured-products'
@@ -12,7 +13,7 @@ export default function Home() {
       <Marquee pauseOnHover={true} />
       <FeaturedEditors />
       <FeaturedProducts />
-      {/* <Hero /> */}
+      <BottomHero />
       <Info />
       <FeaturedPosts />
     </div>

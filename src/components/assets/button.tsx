@@ -10,13 +10,14 @@ export default function Button({
   children: React.ReactNode
   onClick?: () => void
   className?: string
-  variant?: 'primary' | 'secondary' | 'outline-primary' | 'outline-secondary'
+  variant?: 'primary' | 'secondary' | 'outline-primary' | 'outline-secondary' | 'white-primary'
 }) {
   const variantStyles = {
     primary: 'bg-darkSky text-white',
     secondary: 'bg-emerald-400 text-white',
     'outline-primary': 'border border-darkSky text-primary',
-    'outline-secondary': 'border border-emerald-400 text-secondary'
+    'outline-secondary': 'border border-emerald-400 text-secondary',
+    'white-primary': 'bg-white text-darkBlue'
   }
   return (
     <button
