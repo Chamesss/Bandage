@@ -9,7 +9,7 @@ type Props = {
   subTitleSecondTitle?: string
   buttonText?: string
   onClick?: () => void
-  variant?: 'primary' | 'secondary' | 'outline-primary' | 'outline-secondary'
+  variant?: 'primary' | 'secondary' | 'outline-primary' | 'outline-secondary' | 'white-primary'
   dark?: boolean
   className?: string
 }

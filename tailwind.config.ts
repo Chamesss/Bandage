@@ -14,6 +14,7 @@ const config: Config = {
         darkSky: '#2A7CC7',
         sky: '#23A6F0',
         darkblue: '#252B42',
+        forestGreen: '#23856D',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
